@@ -315,7 +315,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 539788052}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 252a5646385973944961499f7a10929e, type: 3}
+  m_Script: {fileID: 11500000, guid: c5666936db1435f4d85ea5d8990a3730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!19719996 &539788055
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 889852649}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: MC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -675,7 +675,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 889852644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 357ad9b18eccb384590b7b27f486753b, type: 3}
+  m_Script: {fileID: 11500000, guid: f385238154d22f745952629aac52aaaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   grounded: 0
@@ -739,8 +739,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889852644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.01, y: 1.13, z: 0}
-  m_LocalScale: {x: 1.4806025, y: 1.6023719, z: 1}
+  m_LocalPosition: {x: -10.8758, y: 1.3582, z: 0}
+  m_LocalScale: {x: 1.5330158, y: 1.780716, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -777,7 +777,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08720845, y: -0.5130753}
+  m_Offset: {x: 0.08720845, y: -0.5462015}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -788,7 +788,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.118295, y: 1.498088}
+  m_Size: {x: 1.118295, y: 1.5643405}
   m_EdgeRadius: 0
 --- !u!1 &1247246352
 GameObject:
@@ -1184,7 +1184,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1840268297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 252a5646385973944961499f7a10929e, type: 3}
+  m_Script: {fileID: 11500000, guid: c5666936db1435f4d85ea5d8990a3730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1840640361
@@ -1213,7 +1213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1840640361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0775e5d53d6be4b83be047383b54bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 68213b4e464428348920b805bd65aff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Spawn: {fileID: 0}
