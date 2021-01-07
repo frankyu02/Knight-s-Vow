@@ -36,8 +36,16 @@ public class jump : MonoBehaviour
 
         if (coll.gameObject.tag == "Enemy")
         {
+            Destroy(coll.gameObject);
             animator.SetBool("isdead", true);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+           
+
+            Invoke("respawn", 0.9f);
         } 
+    }
+    
+    void respawn()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
